@@ -1,0 +1,22 @@
+meta {
+  name: submit
+  type: http
+  seq: 1
+}
+
+post {
+  url: '''
+    POST http://localhost:5000/api/quiz/submit
+    POST http://localhost:5000/api/quiz/submit
+    POST http://localhost:5000/api/quiz/submit
+    POST http://localhost:5000/api/quiz/submit
+    POST http://localhost:5000/api/quiz/submit
+     http://localhost:5000/api/quiz/submit
+'''
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

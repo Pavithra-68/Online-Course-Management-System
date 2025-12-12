@@ -1,0 +1,22 @@
+meta {
+  name: pay
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:5000/api/payment
+  body: json
+  auth: inherit
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5M2IwOGRmZDhkNmEyNWQ4N2JlMzJhZiIsImlhdCI6MTc2NTQ3NzM4NywiZXhwIjoxNzY2MDgyMTg3fQ.R65xI4cHXhE7rj5NsZxTs57m1MChyAiFhLqldP-bfMI
+}
+
+body:json {
+  {
+    "courseId": "693b1410622e3a61783fa238"
+  }
+  
+}

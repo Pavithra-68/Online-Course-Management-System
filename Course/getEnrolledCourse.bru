@@ -1,0 +1,15 @@
+meta {
+  name: getEnrolledCourse
+  type: http
+  seq: 5
+}
+
+get {
+  url: http://localhost:5000/api/enroll/my-courses
+  body: none
+  auth: inherit
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5M2IwOGRmZDhkNmEyNWQ4N2JlMzJhZiIsImlhdCI6MTc2NTQ3NzM4NywiZXhwIjoxNzY2MDgyMTg3fQ.R65xI4cHXhE7rj5NsZxTs57m1MChyAiFhLqldP-bfMI
+}
