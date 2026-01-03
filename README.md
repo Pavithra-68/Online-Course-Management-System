@@ -1,14 +1,17 @@
+Got it 👍
+Here is a **SHORT, clean, and professional README.md** (perfect for GitHub + placements):
 
+---
 
-#  Online Course Management System
+# 📚 Online Course Management System
 
-A full-stack Online Course Management System built using the MERN stack.
+A full-stack **Online Course Management System** built using the **MERN stack**.
 It allows users to register, browse courses, enroll, learn content, take quizzes, and download course completion certificates.
 Admins can manage courses through a dedicated dashboard.
 
+---
 
-
-##  Features
+## 🚀 Features
 
 * User & Admin authentication (JWT)
 * Browse and enroll in courses
@@ -17,18 +20,20 @@ Admins can manage courses through a dedicated dashboard.
 * Quiz and certificate generation
 * Admin dashboard (Add / Edit / Delete courses)
 
+---
 
-##  Tech Stack
+## 🛠️ Tech Stack
 
-* Frontend: React (Vite), Material UI
-* Backend: Node.js, Express.js
-* Database: MongoDB
-* Auth: JWT
+* **Frontend:** React (Vite), Material UI
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB
+* **Auth:** JWT
 
+---
 
+## ▶️ Run the Project
 
-# Run the Project
-
+```bash
 # Backend
 cd backend
 npm install
@@ -38,3 +43,6 @@ npm start
 cd frontend
 npm install
 npm run dev
+```
+
+---
